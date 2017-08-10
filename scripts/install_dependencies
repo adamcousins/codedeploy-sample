@@ -1,5 +1,5 @@
 #!/bin/bash
-yum install -y httpd
+apt-get install -y apache2
 
 rm -rf /var/www/html/*
 
